@@ -1,6 +1,6 @@
 # Tarea2-Bootstrap-Cv
 
-### By Jhusseth
+### By Jhusseth Sanchez
 
 ## Informe
 
