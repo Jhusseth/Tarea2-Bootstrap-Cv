@@ -13,3 +13,6 @@
 * Pagina-Base: https://startbootstrap.github.io/startbootstrap-resume/
 
 #### La posicion de componentes y aprender a manejar los @media fue interesante por que podia poner un fondo de pantalla para cada tipo de ancho de pantalla eso mejora mucho la visualizacion a la hora de verla en diferentes dispositivos. 
+
+
+** GitHub Pages: https://jhusseth.github.io/Tarea2-Bootstrap-Cv/
