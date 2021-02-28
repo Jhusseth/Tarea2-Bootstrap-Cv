@@ -1,0 +1,277 @@
+/* fonts  */
+  @import url('https://fonts.googleapis.com/css?family=Abel|Aguafina+Script|Artifika|Athiti|Condiment|Dosis|Droid+Serif|Farsan|Gurajada|Josefin+Sans|Lato|Lora|Merriweather|Noto+Serif|Open+Sans+Condensed:300|Playfair+Display|Rasa|Sahitya|Share+Tech|Text+Me+One|Titillium+Web');
+  @import url(https://fonts.googleapis.com/css?family=Roboto);
+
+  body {
+    padding-top: 3.375rem;
+    color: black;
+    background: url('https://fondosmil.com/fondo/25311.jpg');
+  }
+
+  #myNav .navbar-nav .nav-item .nav-link {
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+  }
+  #myNav .navbar-toggler:focus {
+    outline-color: #d48a6e;
+  }
+  
+  @media (min-width: 992px) {
+    #myNav {
+      text-align: left;
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      width: 17rem;
+      height: 100vh;
+    }
+    #myNav .navbar-brand {
+      display: flex;
+      margin: auto auto 0;
+      padding: 0.5rem;
+    }
+    #myNav .navbar-brand .img-profile {
+      max-width: 10rem;
+      max-height: 10rem;
+      border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    }
+    #myNav .navbar-collapse {
+      display: flex;
+      align-items: flex-start;
+      flex-grow: 0;
+      width: 100%;
+      margin-bottom: auto;
+    }
+    #myNav .navbar-collapse .navbar-nav {
+      flex-direction: column;
+      width: 100%;
+    }
+    #myNav .navbar-collapse .navbar-nav .nav-item {
+      display: block;
+    }
+    #myNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+      display: block;
+    }
+    body {
+      padding-top: 0;
+      padding-left: 17rem;
+    }
+    p.lead {
+      font-size: 1.25rem;
+      font-weight: 400;
+      color: black;
+      padding-right: 265px;
+    }
+    section.resume-section {
+      padding-left: 3rem;
+      padding-right: 3rem;
+      padding-top: 2rem;
+      padding-bottom: 5rem;
+      background: url('https://wallpaperaccess.com/full/622536.jpg');
+      background-size: 1300px 900px;
+    }
+
+    .container-interests{
+      padding-right: 265px;
+      text-align: justify;
+      padding-top: 20px;
+    }
+    #icon-nav{
+      margin-left: 40px;
+      margin-right: 15px;
+    }
+  }
+
+  #icon-nav{
+    margin-right: 15px;
+  }
+
+  .myColor{
+      background-color: brown;
+  }
+
+  section.resume-section {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    max-width: 75rem;
+  }
+  section.resume-section .resume-section-content {
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    section.resume-section {
+      min-height: 100vh;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .myAwardsL{
+      height: 311px;
+    }
+    .myAwardsR{
+      height: 244px;
+    }
+  }
+
+  .subheading {
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  .myText {
+    color: #a52a2a;
+  }
+  
+  a.myText:hover, a.myText:focus {
+    color: #861818;
+  }
+
+  .social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  .social-icons .social-icon:last-child {
+    margin-right: 0;
+  }
+  .social-icons .social-icon:hover {
+    background-color: #a52a2a;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-transform: uppercase;
+  }
+
+  h1 {
+    line-height: 1;
+  }
+
+  p.lead {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: black;
+  }
+
+  .myName {
+    font-size: 6rem;
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    line-height: 1;
+    color: rgb(34, 34, 34);
+  }
+
+  .email{
+    color: #861818;
+  }
+  .email:hover{
+    color: #550a0a;
+  }
+
+  .title-seccion {
+    font-size: 3.5rem;
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color:black
+  }
+
+  .p-seccion{
+    font-size: 1.2rem;
+    text-align: justify;
+    color: black;
+  }
+
+  .myCard{
+    padding: 25px;
+    background-color: #a52a2a;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.5rem;
+  }
+
+  .card-title{
+    color: white;
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+
+  .myHr{
+    background-color: #861818;
+    height: 0.5rem;
+    transform: translateY(-13px);
+  }
+
+  .card-text{
+    color: white;
+    font-family: 'Farsan', cursive;
+    font-size: 1.3rem;
+  }
+
+  .myTextD {
+    color: white;
+    background-color: black;
+  }
+
+  .progress {
+    width: 155px;
+    background-color: black;
+    
+  }
+
+  .progressCard{
+    color:white;
+    background-color: #a52a2a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 210px;
+    width: 210px;
+    margin-right: 2rem;
+    margin-top: 10px;
+    font-family: 'Farsan', cursive;
+  }
+
+  .mySkills{
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container-skills{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transform: translateY(-10px);
+  }
+
+  #myCarousel{
+    margin-top: 40px;
+  }
+
+  .container-interests{
+    text-align: justify;
+  }
+
