@@ -19,3 +19,5 @@
 
 
 * GitHub Pages: https://jhusseth.github.io/Tarea2-Bootstrap-Cv/
+
+* Repositorio: https://github.com/Jhusseth/Tarea2-Bootstrap-Cv.git
