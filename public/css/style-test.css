@@ -112,15 +112,6 @@
     }
   }
 
-  @media (max-width: 576px) {
-    .myAwardsL{
-      height: 311px;
-    }
-    .myAwardsR{
-      height: 244px;
-    }
-  }
-
   .subheading {
     font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     text-transform: uppercase;
